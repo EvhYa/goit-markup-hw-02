@@ -239,14 +239,13 @@ body {
 /*=======================Main=======================*/
 /*=======================Filters=======================*/
 .filter-btn {
-   font-family: inherit, sans-serif;
+   font-family: inherit;
    width: 116px;
    height: 48px;
    background-color: var(--light);
    border: 1px solid var(--accent);
    border-radius: 4px;
    color: var(--primary-brand);
-   font-family: "Roboto";
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
