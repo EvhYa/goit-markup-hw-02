@@ -54,7 +54,7 @@ body {
 }
 
 .btn {
-    cursor: pointer;
+   cursor: pointer;
 }
 
 .btn:hover,
@@ -239,7 +239,7 @@ body {
 /*=======================Main=======================*/
 /*=======================Filters=======================*/
 .filter-btn {
-   font-family: inherit;
+   font-family: inherit, sans-serif;
    width: 116px;
    height: 48px;
    background-color: var(--light);
