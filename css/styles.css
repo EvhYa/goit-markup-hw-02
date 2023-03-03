@@ -17,7 +17,7 @@
 
 body {
    font-family: "Roboto", sans-serif;
-   color: var(--dark);
+   color: var(--text);
 }
 
 .list {
@@ -28,14 +28,7 @@ body {
    text-decoration: none;
 }
 
-.link:visited {
-   color: var(--dark);
-}
-
 .logo {
-}
-
-.logo-web {
    font-family: "Raleway", sans-serif;
    font-weight: 800;
    font-size: 18px;
@@ -46,12 +39,7 @@ body {
 }
 
 .logo-studio {
-   font-family: "Raleway", sans-serif;
-   font-weight: 800;
-   font-size: 18px;
-   line-height: 1.33;
-   letter-spacing: 0.03em;
-   text-transform: uppercase;
+   color: var(--dark);
 }
 
 .section-title {
@@ -102,6 +90,10 @@ body {
    text-decoration: none;
 }
 
+.menu-item-link {
+   color: var(--dark);
+}
+
 .menu-item-link:hover,
 .menu-item-link:focus {
    color: var(--pressed-state);
@@ -115,10 +107,10 @@ body {
 }
 
 .contacts {
+   font-style: normal;
 }
 
 .contact-item-link {
-   font-style: normal;
    font-weight: 400;
    font-size: 16px;
    line-height: 1.5;
@@ -151,6 +143,14 @@ body {
 }
 
 .order-btn {
+   font-family: inherit;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 1.5;
+   align-items: center;
+   letter-spacing: 0.04em;
+   color: #ffffff;
    display: flex;
    flex-direction: row;
    align-items: flex-start;
@@ -167,13 +167,6 @@ body {
 }
 
 .order-btn-text {
-   font-style: normal;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 1.5;
-   align-items: center;
-   letter-spacing: 0.04em;
-   color: #ffffff;
 }
 
 /*=======================**Features**=======================*/
@@ -231,7 +224,7 @@ body {
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   color: var(--accent);
+   color: var(--light);
 }
 
 .bottom-logo-studio {
@@ -242,6 +235,7 @@ body {
 /*=======================Main=======================*/
 /*=======================Filters=======================*/
 .filter-btn {
+   font-family: inherit;
    width: 116px;
    height: 48px;
    background-color: var(--light);
